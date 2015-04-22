@@ -1,0 +1,65 @@
+﻿<rss version="2.0" xmlns:media="http://search.yahoo.com/mrss/">
+	<channel>
+		<title>Some Bands I Like</title>
+		<link>http://www.andyvolk.com/webmonkey/bands/</link>
+		<description>
+			A list of some bands I like (or have been a member of).
+		</description>
+		<item>
+			<title>Rocking Webmonkey Garage Band</title>
+			<link>http://www.webmonkey.com/ourband.html</link>
+			<description>The best ever garage band on the Internet.</description>
+			<guid isPermaLink="false">http://www.webmonkey.com/ourband.html</guid>
+			<media:group>
+				<media:content url="../media/bigbuck.mp4" fileSize="2471632" type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"' height="240" width="320" duration="147" medium="video" isDefault="true">
+					<media:title>The Webmonkey Band "Monkey Rock"</media:title>
+					<media:description>
+						See Rocking Webmonkey Garage Band playing our classic song "Monkey Rock" to a sold-out audience at the Fillmore Auditorium.
+					</media:description>
+				</media:content>
+				<media:content url="../media/bigbuck.webm" fileSize="2471632" type='video/webm; codecs="vp8, vorbis"' height="240" width="320" duration="147" medium="video" isDefault="true">
+					<media:title>The Webmonkey Band "Monkey Rock"</media:title>
+					<media:description>
+						See Rocking Webmonkey Garage Band playing our classic song "Monkey Rock" to a sold-out audience at the Fillmore Auditorium.
+					</media:description>
+				</media:content>
+				<media:content url="../media/bigbuck.ogv" fileSize="2471632" type='video/ogg; codecs="theora, vorbis"' height="240" width="320" duration="147" medium="video" isDefault="true">
+					<media:title>The Webmonkey Band "Monkey Rock"</media:title>
+					<media:description>
+						See Rocking Webmonkey Garage Band playing our classic song "Monkey Rock" to a sold-out audience at the Fillmore Auditorium.
+					</media:description>
+				</media:content>
+				<media:thumbnail url="../media/bigbuck.png" height="98" width="145"/>
+			</media:group>
+			<media:group>
+				<media:content url="../media/bigbuck.mp4" fileSize="2471632" type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"' height="240" width="320" duration="147" medium="video" isDefault="true">
+					<media:title>The Webmonkey Band "Monkey Rock"</media:title>
+					<media:description>
+						See Rocking Webmonkey Garage Band playing our classic song "Monkey Rock" to a sold-out audience at the Fillmore Auditorium.
+					</media:description>
+				</media:content>
+				<media:content url="../media/bigbuck.webm" fileSize="2471632" type='video/webm; codecs="vp8, vorbis"' height="240" width="320" duration="147" medium="video" isDefault="true">
+					<media:title>The Webmonkey Band "Monkey Rock"</media:title>
+					<media:description>
+						See Rocking Webmonkey Garage Band playing our classic song "Monkey Rock" to a sold-out audience at the Fillmore Auditorium.
+					</media:description>
+				</media:content>
+				<media:content url="../media/bigbuck.ogv" fileSize="2471632" type='video/ogg; codecs="theora, vorbis"' height="240" width="320" duration="147" medium="video" isDefault="true">
+					<media:title>The Webmonkey Band "Monkey Rock"</media:title>
+					<media:description>
+						See Rocking Webmonkey Garage Band playing our classic song "Monkey Rock" to a sold-out audience at the Fillmore Auditorium.
+					</media:description>
+				</media:content>
+				<media:thumbnail url="../media/bigbuck.png" height="98" width="145"/>
+			</media:group>
+			<media:group>
+				<media:content url="http://streams.smooth.vertigo.com/BigBuckBunny_30sec/bigbuck.ism/manifest" fileSize="2471632" type="text/xml" height="240" width="320" duration="147" medium="video" isDefault="true">
+					<media:title>The Webmonkey Band "Monkey Rock"</media:title>
+					<media:description>
+						See Rocking Webmonkey Garage Band playing our classic song "Monkey Rock" to a sold-out audience at the Fillmore Auditorium.
+					</media:description>
+				</media:content>
+			</media:group>
+		</item>
+	</channel>
+</rss>
