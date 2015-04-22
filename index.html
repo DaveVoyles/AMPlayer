@@ -14,7 +14,6 @@
         <!-- CSS -->
         <link rel="stylesheet" href="css/normalize.min.css">
         <link rel="stylesheet" href="css/main.css">
-        <link rel="stylesheet" href="css/AzureMediaPlayer.css" />
 
     </head>
     <body>
@@ -58,8 +57,11 @@
         
         <!-- JavaScript files-->
         <script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
-        <script src="js/AzureMediaPlayer.min.js"></script>
         
+        <!-- Media Player files -->
+        <link href="//amp.azure.net/libs/amp/1.0.0/skins/amp-default/azuremediaplayer.min.css" rel="stylesheet">
+        <script src="//amp.azure.net/libs/amp/1.0.0/azuremediaplayer.min.js"></script>
+  
         <!-- Customize your video playe here -->
         <script>
             var myOptions = {
@@ -78,9 +80,14 @@
             // Which video should the player use?
             myPlayer.src([
                 {
-                     src: "http://amssamples.streaming.mediaservices.windows.net/91492735-c523-432b-ba01-faba6c2206a2/AzureMediaServicesPromo.ism/manifest", type: "application/vnd.ms-sstr+xml"
+                    src: "http://amssamples.streaming.mediaservices.windows.net/91492735-c523-432b-ba01-faba6c2206a2/AzureMediaServicesPromo.ism/manifest", type: "application/vnd.ms-sstr+xml"
                 }
             ]);
+
+            // Fallback options for video playing
+            amp.options.flashSS.swf       = "//amp.azure.net/libs/amp/1.0.0/techs/StrobeMediaPlayback.2.0.swf";
+            amp.options.flashSS.plugin    = "//amp.azure.net/libs/amp/1.0.0/techs/MSAdaptiveStreamingPlugin-osmf2.0.swf";
+            amp.options.silverlightSS.xap = "//amp.azure.net/libs/amp/1.0.0/techs/SmoothStreamingPlayer.xap";
         </script>
 
     </body>
