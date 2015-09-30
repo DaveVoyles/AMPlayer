@@ -3,6 +3,10 @@ AMPlayer is the [Azure Media Player](http://amsplayer.azurewebsites.net/), a fre
 
 I wrote a series of tutorials on how to use this media player, as well as an overview of HTML5 video player technology, and how to live stream video with Azure Media Services.
 
+Want to test it out? Spin up your own Azure web server with this project by clicking this button.
+
+[![Deploy to Azure](http://azuredeploy.net/deploybutton.png)](https://azuredeploy.net/)
+
 Here is a full list of the tutorials:
 
 * [Intro to HTML5 video](http://www.davevoyles.com/introduction-to-html5-video/)
